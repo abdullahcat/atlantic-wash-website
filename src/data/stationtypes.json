@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Interior",
+        "imgSrc": "DALL·E 2023-09-17 16.22.38.png",
+        "type": "Conveyor Hand Car Wash",
+        "description": "The type of car wash setup where vehicles are placed on a conveyor system, which moves them through different tools to clean interior. Even though it’s automated in terms of moving the car, the washing process itself largely relies on manual labor.",
+        "link": "https://johndoe-portfolio.com"
+    },
+    {
+        "name": "Exterior",
+        "imgSrc": "DALL·E 2023-09-17 16.23.20.png",
+        "type": "Conveyor Hand Car Wash",
+        "description": "The type of car wash setup where vehicles are placed on a conveyor system, which moves them through different tools to clean exterior. Even though it’s automated in terms of moving the car, the washing process itself largely relies on manual labor.",
+        "link": "https://johndoe-portfolio.com"
+    },
+    {
+        "name": "Self Service",
+        "imgSrc": "DALL·E 2023-09-17 16.23.54.png",
+        "type": "Self Service Car Wash",
+        "description": "The type of car wash setup where customers wash their own vehicles using a pressure washer and other tools.",
+        "link": "https://johndoe-portfolio.com"
+    },
+    {
+        "name": "Conveyor",
+        "imgSrc": "DALL·E 2023-09-17 16.23.58.png",
+        "type": "Conveyor Machine Car Wash",
+        "description": "The type of car wash setup where vehicles are placed on a conveyor system, which moves them through different tools to clean exterior.",
+        "link": "https://johndoe-portfolio.com"
+    }
+]
