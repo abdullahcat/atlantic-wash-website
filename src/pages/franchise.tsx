@@ -51,7 +51,7 @@ const Franchise: React.FC = () => {
 
                 <h2 className="text-xl text-atlantic-blue1 font-semibold mb-2">Başvuru ve Eğitim Süreci</h2>
                 <p>
-                    Atlantic Wash işletmeciliğine başvuru süreci, web sitesi üzerinden doldurulan "Başvuru Formu" ve CV&apos;nin gönderilmesiyle başlar. Başvurular, Atlantic Wash&apos;ın yatırım planlarına göre değerlendirilir. Olumlu değerlendirilen başvurular için mülakat süreçleri başlatılır.
+                    Atlantic Wash işletmeciliğine başvuru süreci, web sitesi üzerinden doldurulan Başvuru Formu ve CV&apos;nin gönderilmesiyle başlar. Başvurular, Atlantic Wash&apos;ın yatırım planlarına göre değerlendirilir. Olumlu değerlendirilen başvurular için mülakat süreçleri başlatılır.
                 </p>
                 <p>
                     Eğitim programı, işletmecilerin Atlantic Wash kültürünü en ince detaylarına kadar öğrenmelerini sağlar. Tam zamanlı olan bu program, katılımcının performansına bağlı olarak 6-8 ay sürer.

@@ -30,19 +30,19 @@ const TestimonialsWidget: React.FC = () => {
         // ... more testimonials ...
     ];
 
-    return (<div className="bg-black p-4 rounded  shadow-md">
-        <h2 className="text-2xl font-bold mb-2 text-white text-center">Trusted by the community!</h2>
-        <div className=" md:flex-row flex-col flex md:space-x-4 justify-center">
-            {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="my-4 p-4 w-full bg-black   border-2 border-white flex flex-col items-center">
-                    <Image src={testimonial.image} alt={testimonial.name} className="w-24 h-24  rounded-full mb-4" />
-                    <p className="italic mb-2 text-center text-white">"{testimonial.quote}"</p>
-                    <p className="font-bold text-center text-white">{testimonial.name}</p>
-                </div>
-            ))}
+    return (
+        <div className="bg-black p-4 rounded shadow-md">
+            <h2 className="text-2xl font-bold mb-2 text-white text-center">Trusted by the community!</h2>
+            <div className="md:flex-row flex-col flex md:space-x-4 justify-center">
+                {testimonials.map((testimonial) => (
+                    <div key={testimonial.id} className="my-4 p-4 w-full bg-black border-2 border-white flex flex-col items-center">
+                        <Image src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mb-4" />
+                        <p className="italic mb-2 text-center text-white">{`"${testimonial.quote}"`}</p>
+                        <p className="font-bold text-center text-white">{testimonial.name}</p>
+                    </div>
+                ))}
+            </div>
         </div>
-    </div>
-
     );
 };
 
