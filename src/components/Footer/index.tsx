@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
     return (
 
@@ -5,9 +7,9 @@ function Footer() {
             <div className="   w-full   p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <a href="/" className="flex items-center">
+                        <Link href="/" className="flex items-center">
                             <img src="atlanticlogo.png" className="h-10 mr-3" alt="Atlantic Logo" />
-                        </a>
+                        </Link>
                         <div className="mt-4 text-gray-500 hover:underline cursor-pointer dark:text-gray-400">
                             <a href="mailto: help@atlanticwash.com">help@atlanticwash.com
                             </a>
@@ -24,16 +26,16 @@ function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Atlantic Wash</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="/about" className="hover:underline">About</a>
+                                    <Link href="/about" className="hover:underline">About</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="/locations" className="hover:underline">Locations</a>
+                                    <Link href="/locations" className="hover:underline">Locations</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="/atlanticblue" className="hover:underline">Atlantic Blue</a>
+                                    <Link href="/atlanticblue" className="hover:underline">Atlantic Blue</Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="/legal" className="hover:underline">Legal</a>
+                                    <Link href="/legal" className="hover:underline">Legal</Link>
                                 </li>
                             </ul>
                         </div>

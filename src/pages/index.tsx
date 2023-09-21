@@ -7,6 +7,7 @@ import AtlanticBlue from '@/components/AtlanticBlue';
 import AppShowcase from '@/components/Mobile';
 import Head from 'next/head';
 import TestimonialsWidget from '@/components/Testimonials';
+import Link from 'next/link';
 
 
 function HomePage() {
@@ -23,10 +24,10 @@ function HomePage() {
                 <div className="absolute space-y-4 mx-auto px-4 py-20 z-10"> {/* Added z-10 here */}
                     <p className="text-4xl text-white">Drive into the Future with Advanced Auto Wash.</p>
                     <p className="text-xl text-white">Harnessing the power of tech to deliver unparalleled cleanliness.</p>
-                    <a
+                    <Link
                         href="/locations"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-atlantic-blue2 text-white inline-block">Experience Now</a>
+                        className="px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-atlantic-blue2 text-white inline-block">Experience Now</Link>
                 </div>
                 <video ref={videoRef} src="pexels-yaroslav-shuraev-5418124 (2160p).mp4" className="w-full h-screen object-cover rounded shadow-lg z-0" autoPlay muted loop /> {/* Added z-0 here */}
             </div>            <Features />

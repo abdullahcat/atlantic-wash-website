@@ -1,4 +1,3 @@
-// pages/locations.tsx
 
 import Head from 'next/head';
 import React, { useState } from 'react';

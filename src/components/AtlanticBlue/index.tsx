@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import Wavify from 'react-wavify';
 
@@ -28,10 +29,10 @@ function AtlanticBlue() {
             </p>
 
             {/* Button */}
-            <a
+            <Link
                 href="/atlanticblue"
                 rel="noopener noreferrer"
-                className="z-20 absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-black text-white inline-block">More Information</a>
+                className="z-20 absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-black text-white inline-block">More Information</Link>
 
             {/* Wave Illustration at the bottom */}
             <div className="absolute bottom-0 w-full">

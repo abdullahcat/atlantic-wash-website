@@ -17,9 +17,9 @@ function Navbar() {
     return (
         <div className="bg-black fixed text-white w-full z-50">
             <div className="mx-auto px-4 py-4 flex justify-between items-center">
-                <a href="/">
+                <Link href="/">
                     <img src="atlanticlogo.png" alt="Atlantic Logo" className="h-10" />
-                </a>
+                </Link>
                 {/* Hamburger Menu for Mobile */}
                 <div className="lg:hidden cursor-pointer" onClick={() => setShowMenu(!showMenu)}>
                     {showMenu ? (
@@ -34,13 +34,13 @@ function Navbar() {
                 </div>
                 {/* Classic view for Desktop */}
                 <div className="hidden lg:flex space-x-4 items-center">
-                    <a href="/locations" className="hover:text-gray-400">Locations</a>
+                    <Link href="/locations" className="hover:text-gray-400">Locations</Link>
                     <Dropdown title="About" isOpen={showDropdown} setIsOpen={setShowDropdown} />
-                    <a href="/franchise" className="hover:text-gray-400">Franchise</a>
-                    <a
+                    <Link href="/franchise" className="hover:text-gray-400">Franchise</Link>
+                    <Link
                         href="/atlanticblue"
                         rel="noopener noreferrer"
-                        className="px-5 py-2 uppercase font-mono font-semibold tracking-wider   text-white inline-block hover:bg-atlantic-blue2  border-2 border-white     ">Atlantic Blue</a>
+                        className="px-5 py-2 uppercase font-mono font-semibold tracking-wider   text-white inline-block hover:bg-atlantic-blue2  border-2 border-white     ">Atlantic Blue</Link>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ function Navbar() {
             {showMenu && (
                 <div className={`slideInDown transition-transform duration-500 ease-in-out h-screen w-full bg-black absolute top-full left-0 ${showMenu ? 'translate-y-0' : '-translate-y-full'} lg:hidden`}>
                     <div className="text-start px-4 pt-6 pb-8 space-y-6">
-                        <a href="/locations" className="block py-2 hover:underline">Locations</a>
+                        <Link href="/locations" className="block py-2 hover:underline">Locations</Link>
 
                         <div className="relative">
                             <div onClick={() => setAboutDropdown(!aboutDropdown)} className="flex justify-between cursor-pointer py-2 hover:underline">
@@ -58,18 +58,18 @@ function Navbar() {
 
                             {aboutDropdown && (
                                 <div className="space-y-4 mt-6">
-                                    <a href="/about" className="block py-2 text-sm hover:underline">About Company</a>
-                                    <a href="/faq" className="block py-2 text-sm hover:underline">FAQ</a>
-                                    <a target='_blank' href="http://careers.atlanticwash.com" className="block py-2 text-sm hover:underline">Careers</a>
+                                    <Link href="/about" className="block py-2 text-sm hover:underline">About Company</Link>
+                                    <Link href="/faq" className="block py-2 text-sm hover:underline">FAQ</Link>
+                                    <Link target='_blank' href="http://careers.atlanticwash.com" className="block py-2 text-sm hover:underline">Careers</Link>
                                 </div>
                             )}
                         </div>
 
-                        <a href="/franchise" className="block py-2 hover:underline">Franchise</a>
-                        <a
+                        <Link href="/franchise" className="block py-2 hover:underline">Franchise</Link>
+                        <Link
                             href="/atlanticblue"
                             rel="noopener noreferrer"
-                            className="px-5 py-2 uppercase font-mono font-semibold tracking-wider   hover:bg-atlantic-blue2  border-2 border-white   text-white inline-block">Atlantic Blue</a>                    </div>
+                            className="px-5 py-2 uppercase font-mono font-semibold tracking-wider   hover:bg-atlantic-blue2  border-2 border-white   text-white inline-block">Atlantic Blue</Link>                    </div>
                 </div>
             )}
 
@@ -87,9 +87,9 @@ function Dropdown({ title, isOpen, setIsOpen }: DropdownProps) {
             </span>
             {isOpen && (
                 <div className="absolute mt-2 w-48 bg-white text-black shadow-lg rounded transition-opacity duration-200">
-                    <a href="/about" className="block px-4 py-2 hover:bg-gray-300">About Company</a>
-                    <a href="/faq" className="block px-4 py-2 hover:bg-gray-300">FAQ</a>
-                    <a href="http://careers.atlanticwash.com" target='_blank' className="block px-4 py-2 hover:bg-gray-300">Careers</a>
+                    <Link href="/about" className="block px-4 py-2 hover:bg-gray-300">About Company</Link>
+                    <Link href="/faq" className="block px-4 py-2 hover:bg-gray-300">FAQ</Link>
+                    <Link href="http://careers.atlanticwash.com" target='_blank' className="block px-4 py-2 hover:bg-gray-300">Careers</Link>
 
                 </div>
             )}
