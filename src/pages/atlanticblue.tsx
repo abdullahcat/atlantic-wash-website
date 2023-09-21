@@ -37,8 +37,8 @@ function AtlanticBlue() {
                     Atlantic Blue is a special service offering from our company. Dive in to explore the depths of our expertise.
                 </p>
 
-                <h1 className="border-2 font-freshman  p-5 rounded-lg z-20 text-3xl text-center absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    10$/MONTH                </h1>
+                <h1 className=" z-20 text-3xl text-center absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    10$/Month                </h1>
                 {/* Wave Illustration at the bottom */}
                 <div className="absolute bottom-0 w-full">
                     <Wavify fill='#fff'

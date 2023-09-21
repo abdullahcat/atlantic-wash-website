@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png" />
                 <link rel="manifest" href="/favicon_package_v0.16/site.webmanifest" />
                 <meta name="msapplication-TileColor" content="#da532c" />
-                <meta name="theme-color" content="#ffffff" />
+                <meta name="theme-color" content="#000000" />
             </Head>
 
             <Component {...pageProps} />

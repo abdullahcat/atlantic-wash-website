@@ -14,7 +14,7 @@ const About: React.FC = () => {
                     <h1 className="text-4xl font-bold text-white">Revolutionizing Auto Care for Every Ride</h1>
                     <p className="text-xl text-white">Atlantic Wash: Catering to the modern commuter&apos;s desires, supporting the luxury car aficionados, and everyone in between. It&apos;s not just a wash; it&apos;s a revolution in auto care.</p>
                     <a
-                        href="https://www.youtube.com/watch?v=XHTrLYShBRQ"
+                        href="https://story.atlanticwash.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-atlantic-blue2 text-white inline-block"
@@ -23,7 +23,10 @@ const About: React.FC = () => {
                     </a>
 
                 </div>
-                <video ref={videoRef} className="blur-md absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
+                <video ref={videoRef} className="blur-md absolute top-0 left-0 w-full h-full object-cover" playsInline
+                    muted
+                    autoPlay
+                    loop>
                     <source src="pexels-kindel-media-6773878 (2160p).mp4" type="video/mp4" />
                 </video>
 

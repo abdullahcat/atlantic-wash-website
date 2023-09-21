@@ -15,7 +15,7 @@ export default function Legal() {
                 <div className="w-full   bg-black px-4 py-10  ">
                     <div className="mb-4">
                         <button
-                            className={`mr-4 px-4 py-2 ${activeTab === 'tos' ? 'hover:bg-white bg-atlantic-blue2 text-white hover:text-black border-2 border-white   ' : 'border-2 border-white hover:bg-white hover:text-black '}`}
+                            className={`mb-2 mr-4 px-4 py-2 ${activeTab === 'tos' ? 'hover:bg-white bg-atlantic-blue2 text-white hover:text-black border-2 border-white   ' : 'border-2 border-white hover:bg-white hover:text-black '}`}
                             onClick={() => setActiveTab('tos')}
                         >
                             Terms of Service

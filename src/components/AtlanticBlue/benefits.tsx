@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-type BenefitId = 'costSavings' | 'convenience'; // add other IDs as needed
-import Image from "next/image";
+type BenefitId =
+    'costSavings' |
+    'convenience' |
+    'efficiency' |
+    'expertise' |
+    'trust'; import Image from "next/image";
 
 type Benefit = {
     id: BenefitId;
@@ -16,21 +20,39 @@ const AutoWashBenefits = () => {
             id: 'costSavings',
             title: 'Cost Savings',
             description: 'Subscribers often save money compared to non-subscribers.',
-            imagePath: 'atlantic-icon kopyası.png'
+            imagePath: '/costSavings.png'
         },
         {
             id: 'convenience',
             title: 'Convenience',
             description: 'Subscriptions offer a hassle-free car wash experience.',
-            imagePath: 'atlantic-icon kopyası.png'
-        }
-        // ... Add more benefits as needed ...
-    ];
+            imagePath: '/convenience.png'
+        },
+        {
+            id: 'efficiency',
+            title: 'Efficiency',
+            description: 'Get your car cleaned faster with our streamlined process.',
+            imagePath: '/efficiency.png'
+        },
+
+
+        {
+            id: 'expertise',
+            title: 'Expertise',
+            description: 'Our professionals are trained to give your car the best treatment.',
+            imagePath: '/expertise.png'
+        },
+        {
+            id: 'trust',
+            title: 'Trust',
+            description: 'We value and ensure the trust of all our customers.',
+            imagePath: '/trust.png'
+        }];
 
     return (
         <div className="container mx-auto">
             <h1 className="text-4xl text-black font-bold text-center mb-8">Benefits of Blue</h1>
-            <div className="overflow-x-scroll whitespace-nowrap py-4 rounded shadow">
+            <div className="overflow-x-scroll  item-center justify-center text-center whitespace-nowrap py-4  ">
                 {benefitsData.map(benefit => (
                     <div
                         key={benefit.id}
@@ -38,7 +60,7 @@ const AutoWashBenefits = () => {
                         onClick={() => setSelectedBenefit(benefit)}
                     >
                         {/* Benefit Image */}
-                        <Image src={benefit.imagePath} alt={benefit.title} className="object-cover w-full h-full" />
+                        <img src={benefit.imagePath} alt={benefit.title} className="object-cover w-full h-full" />
                     </div>
                 ))}
             </div>

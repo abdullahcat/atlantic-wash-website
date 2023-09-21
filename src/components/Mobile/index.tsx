@@ -11,7 +11,7 @@ function AppShowcase() {
 
                 {/* App Image */}
                 <div className="flex-2 md:mr-8">
-                    <Image src="https://standyroutes.com/images/standy_iphones_official.png" alt="App Preview" className="w-full max-w-md rounded-md" />
+                    <img src="/standy_iphones_official.png" alt="App Preview" className="w-full max-w-md rounded-md" />
                 </div>
 
                 {/* App Details */}

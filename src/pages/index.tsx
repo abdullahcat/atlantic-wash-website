@@ -29,7 +29,7 @@ function HomePage() {
                         rel="noopener noreferrer"
                         className="px-5 py-2 uppercase font-mono font-semibold tracking-wider border-2 border-white hover:bg-atlantic-blue2 text-white inline-block">Experience Now</Link>
                 </div>
-                <video ref={videoRef} src="pexels-yaroslav-shuraev-5418124 (2160p).mp4" className="w-full h-screen object-cover rounded shadow-lg z-0" autoPlay muted loop /> {/* Added z-0 here */}
+                <video ref={videoRef} src="pexels-yaroslav-shuraev-5418124 (2160p).mp4" className="w-full h-screen object-cover rounded shadow-lg z-0" autoPlay muted loop playsInline /> {/* Added z-0 here */}
             </div>            <Features />
 
             <AppShowcase />

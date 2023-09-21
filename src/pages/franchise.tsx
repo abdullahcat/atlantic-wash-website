@@ -22,8 +22,7 @@ const Franchise: React.FC = () => {
                         Apply Now</a>
 
                 </div>
-                <Image src='https://rocketcarwash.com/wp-content/uploads/RCW-O-Street-Update.jpg' alt='franchise_cover' className="blur-md absolute top-0 left-0 w-full h-screen object-cover">
-                </Image>
+                <img src='/RCW-O-Street-Update.jpg' alt='franchise_cover' className="blur-md absolute top-0 left-0 w-full h-screen object-cover" />
             </div>
 
             <div className="p-4 space-y-6 my-10">

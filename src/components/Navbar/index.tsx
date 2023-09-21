@@ -18,7 +18,7 @@ function Navbar() {
         <div className="bg-black fixed text-white w-full z-50">
             <div className="mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/">
-                    <Image src="atlanticlogo.png" alt="Atlantic Logo" className="h-10" />
+                    <img src="/atlanticlogo.png" alt="Atlantic Logo" className="h-10" />
                 </Link>
                 {/* Hamburger Menu for Mobile */}
                 <div className="lg:hidden cursor-pointer" onClick={() => setShowMenu(!showMenu)}>

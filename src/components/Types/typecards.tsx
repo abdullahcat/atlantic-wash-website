@@ -14,7 +14,7 @@ const AutoWashCard: React.FC<Props> = ({ name, imgSrc, type, description, link }
     return (
         <div className="mx-4 mb-20 border-2 border-black overflow-hidden max-w-md bg-white">
             {/* Image */}
-            <Image src={imgSrc} alt={name} className="w-full object-cover" />
+            <img src={imgSrc} alt={name} className="w-full object-cover" />
 
             {/* Content */}
             <div className="p-4">

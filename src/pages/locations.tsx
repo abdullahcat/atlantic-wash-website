@@ -52,7 +52,7 @@ const Locations: React.FC = () => {
                 />
             </div>
 
-            <div className="md:grid md:grid-cols-3 md:gap-4">
+            <div className="md:grid flex-col flex md:grid-cols-3 md:gap-4">
                 {filteredStores.map((store: Store) => (
                     <a key={store.id} target='_blank' href={`https://www.google.com/maps/search/?api=1&query=${store.location}`}
                         className="p-4 border-2 cursor-pointer   mb-4  hover:bg-atlantic-blue2 ">
