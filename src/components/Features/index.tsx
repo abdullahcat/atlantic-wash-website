@@ -37,8 +37,8 @@ const Features: React.FC = () => {
                                 </svg>
                             </div>
                             <div>
-                                <h4 className="text-lg text-gray-800 font-medium mb-1">Feedback &amp; Ratings</h4>
-                                <p className="text-gray-600 leading-relaxed">Rate your wash experience and leave feedback. We're always eager to improve.</p>
+                                <h4 className="text-lg text-gray-800 font-medium mb-1">Feedback and Ratings</h4>
+                                <p className="text-gray-600 leading-relaxed">Rate your wash experience and leave feedback. We&apos;re always eager to improve.</p>
                             </div>
                         </div>
                     </div>

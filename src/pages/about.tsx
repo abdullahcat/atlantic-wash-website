@@ -49,7 +49,7 @@ const About: React.FC = () => {
                 </p>
 
                 <p className="italic">
-                    &ldquo;Innovation isn't just about doing new things. It's about reshaping and optimizing the present for a brighter, more efficient future.&rdquo; - Abdullah Çat
+                    &ldquo;Innovation isn&apos;t just about doing new things. It&apos;s about reshaping and optimizing the present for a brighter, more efficient future.&rdquo; - Abdullah Çat
                 </p>
             </div>
         </div>
