@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 type Testimonial = {
     id: number;
@@ -23,7 +24,7 @@ const TestimonialsWidget: React.FC = () => {
         }, {
             id: 3,
             name: 'Oscar Cooper',
-            quote: 'I\'m never going anywhere else!',
+            quote: 'Never going anywhere else!',
             image: 'https://i.pinimg.com/564x/25/34/5e/25345e8510eeaab262dcaf3c56c57f30.jpg',
         },
         // ... more testimonials ...
@@ -34,7 +35,7 @@ const TestimonialsWidget: React.FC = () => {
         <div className=" md:flex-row flex-col flex md:space-x-4 justify-center">
             {testimonials.map((testimonial) => (
                 <div key={testimonial.id} className="my-4 p-4 w-full bg-black   border-2 border-white flex flex-col items-center">
-                    <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24  rounded-full mb-4" />
+                    <Image src={testimonial.image} alt={testimonial.name} className="w-24 h-24  rounded-full mb-4" />
                     <p className="italic mb-2 text-center text-white">"{testimonial.quote}"</p>
                     <p className="font-bold text-center text-white">{testimonial.name}</p>
                 </div>

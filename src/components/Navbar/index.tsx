@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState, Dispatch, SetStateAction } from 'react';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
-
+import Image from 'next/image';
 
 interface DropdownProps {
     title: string;
@@ -18,7 +18,7 @@ function Navbar() {
         <div className="bg-black fixed text-white w-full z-50">
             <div className="mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/">
-                    <img src="atlanticlogo.png" alt="Atlantic Logo" className="h-10" />
+                    <Image src="atlanticlogo.png" alt="Atlantic Logo" className="h-10" />
                 </Link>
                 {/* Hamburger Menu for Mobile */}
                 <div className="lg:hidden cursor-pointer" onClick={() => setShowMenu(!showMenu)}>

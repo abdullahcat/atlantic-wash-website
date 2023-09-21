@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 
 function AppShowcase() {
@@ -10,7 +11,7 @@ function AppShowcase() {
 
                 {/* App Image */}
                 <div className="flex-2 md:mr-8">
-                    <img src="https://standyroutes.com/images/standy_iphones_official.png" alt="App Preview" className="w-full max-w-md rounded-md" />
+                    <Image src="https://standyroutes.com/images/standy_iphones_official.png" alt="App Preview" className="w-full max-w-md rounded-md" />
                 </div>
 
                 {/* App Details */}

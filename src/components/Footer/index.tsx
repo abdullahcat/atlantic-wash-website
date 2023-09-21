@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 function Footer() {
     return (
@@ -8,11 +9,11 @@ function Footer() {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <Link href="/" className="flex items-center">
-                            <img src="atlanticlogo.png" className="h-10 mr-3" alt="Atlantic Logo" />
+                            <Image src="atlanticlogo.png" className="h-10 mr-3" alt="Atlantic Logo" />
                         </Link>
                         <div className="mt-4 text-gray-500 hover:underline cursor-pointer dark:text-gray-400">
-                            <a href="mailto: help@atlanticwash.com">help@atlanticwash.com
-                            </a>
+                            <Link href="mailto: help@atlanticwash.com">help@atlanticwash.com
+                            </Link>
                         </div>
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 

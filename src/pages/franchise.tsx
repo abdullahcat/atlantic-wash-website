@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 
 const Franchise: React.FC = () => {
@@ -11,7 +12,7 @@ const Franchise: React.FC = () => {
             <div className="relative flex justify-start items-end h-screen">
                 <div className="absolute space-y-6 mx-auto px-4 py-20 z-10">
                     <h1 className="text-4xl font-bold text-white">Franchising</h1>
-                    <p className="text-xl text-white">Dünyanın önde gelen oto yıkama Franchising Ailesi’ne katılarak başarı öykünüze yepyeni bir sayfa ekleyin.</p>
+                    <p className="text-xl text-white">Dünyanın önde gelen oto yıkama Franchising Ailesi&apos;ne katılarak başarı öykünüze yepyeni bir sayfa ekleyin.</p>
                     <a
                         href="applyfranchise.atlanticwash.com"
                         target="_blank"
@@ -21,14 +22,14 @@ const Franchise: React.FC = () => {
                         Apply Now</a>
 
                 </div>
-                <img src='https://rocketcarwash.com/wp-content/uploads/RCW-O-Street-Update.jpg' alt='franchise_cover' className="blur-md absolute top-0 left-0 w-full h-screen object-cover">
-                </img>
+                <Image src='https://rocketcarwash.com/wp-content/uploads/RCW-O-Street-Update.jpg' alt='franchise_cover' className="blur-md absolute top-0 left-0 w-full h-screen object-cover">
+                </Image>
             </div>
 
             <div className="p-4 space-y-6 my-10">
                 <h1 className="text-2xl font-bold mb-2">Atlantic Wash Franchising Sistemi</h1>
 
-                <h2 className="text-xl text-atlantic-blue1 font-semibold mb-2">Atlantic Wash'ın Franchising Yapısı</h2>
+                <h2 className="text-xl text-atlantic-blue1 font-semibold mb-2">Atlantic Wash&apos;ın Franchising Yapısı</h2>
                 <p>
                     Atlantic Wash, endüstri lideri olmasının en büyük sebeplerinden biri, işletmecilerinin üstün niteliklerine ve profesyonelliğine dayanmaktadır. Bu başarının arkasında, Atlantic Wash tarafından sağlanan kapsamlı ve yüksek kaliteli eğitim programları bulunmaktadır.
                 </p>
@@ -36,7 +37,7 @@ const Franchise: React.FC = () => {
                     Atlantic Wash, işletmecilere marka altında ticari faaliyette bulunma hakkı tanımak için kendi geliştirdiği restoran işletme lisansını verir.
                 </p>
                 <p>
-                    Atlantic Wash, Türkiye'deki büyüme stratejileri doğrultusunda, potansiyel restoran açılacak bölgeleri belirleyip, bu bölgelerde uygun gayrimenkulü kiralama veya satın alma yoluna gider. Tüm tadilat, inşaat, dekorasyon ve ekipman yatırımını Atlantic Wash üstlenirken, işletmeciler restorana özel yatırımları (oturma grupları, mutfak ekipmanları, iç-dış reklam panoları vb.) gerçekleştirir.
+                    Atlantic Wash, Türkiye&apos;deki büyüme stratejileri doğrultusunda, potansiyel restoran açılacak bölgeleri belirleyip, bu bölgelerde uygun gayrimenkulü kiralama veya satın alma yoluna gider. Tüm tadilat, inşaat, dekorasyon ve ekipman yatırımını Atlantic Wash üstlenirken, işletmeciler restorana özel yatırımları (oturma grupları, mutfak ekipmanları, iç-dış reklam panoları vb.) gerçekleştirir.
                 </p>
 
                 <h2 className="text-xl text-atlantic-blue1 font-semibold mb-2">İdeal İşletmeci Profili</h2>
@@ -50,7 +51,7 @@ const Franchise: React.FC = () => {
 
                 <h2 className="text-xl text-atlantic-blue1 font-semibold mb-2">Başvuru ve Eğitim Süreci</h2>
                 <p>
-                    Atlantic Wash işletmeciliğine başvuru süreci, web sitesi üzerinden doldurulan "Başvuru Formu" ve CV'nin gönderilmesiyle başlar. Başvurular, Atlantic Wash'ın yatırım planlarına göre değerlendirilir. Olumlu değerlendirilen başvurular için mülakat süreçleri başlatılır.
+                    Atlantic Wash işletmeciliğine başvuru süreci, web sitesi üzerinden doldurulan "Başvuru Formu" ve CV&apos;nin gönderilmesiyle başlar. Başvurular, Atlantic Wash&apos;ın yatırım planlarına göre değerlendirilir. Olumlu değerlendirilen başvurular için mülakat süreçleri başlatılır.
                 </p>
                 <p>
                     Eğitim programı, işletmecilerin Atlantic Wash kültürünü en ince detaylarına kadar öğrenmelerini sağlar. Tam zamanlı olan bu program, katılımcının performansına bağlı olarak 6-8 ay sürer.

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 type BenefitId = 'costSavings' | 'convenience'; // add other IDs as needed
+import Image from "next/image";
 
 type Benefit = {
     id: BenefitId;
@@ -37,7 +38,7 @@ const AutoWashBenefits = () => {
                         onClick={() => setSelectedBenefit(benefit)}
                     >
                         {/* Benefit Image */}
-                        <img src={benefit.imagePath} alt={benefit.title} className="object-cover w-full h-full" />
+                        <Image src={benefit.imagePath} alt={benefit.title} className="object-cover w-full h-full" />
                     </div>
                 ))}
             </div>
