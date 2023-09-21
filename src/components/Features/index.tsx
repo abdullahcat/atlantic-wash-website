@@ -1,6 +1,3 @@
-import Head from 'next/head';
-import React, { useRef } from 'react';
-
 const Features: React.FC = () => {
     return (
         <div className="bg-white">
@@ -40,7 +37,7 @@ const Features: React.FC = () => {
                                 </svg>
                             </div>
                             <div>
-                                <h4 className="text-lg text-gray-800 font-medium mb-1">Feedback & Ratings</h4>
+                                <h4 className="text-lg text-gray-800 font-medium mb-1">Feedback &amp; Ratings</h4>
                                 <p className="text-gray-600 leading-relaxed">Rate your wash experience and leave feedback. We're always eager to improve.</p>
                             </div>
                         </div>
